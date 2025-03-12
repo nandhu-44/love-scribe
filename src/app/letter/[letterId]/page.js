@@ -19,7 +19,6 @@ async function fetchLetter(letterId) {
       return null;
     }
     
-    // Clean the MongoDB document for serialization
     const cleanLetter = {
       ...letter,
       _id: letter._id.toString(),
@@ -29,7 +28,7 @@ async function fetchLetter(letterId) {
     return cleanLetter;
   } catch (error) {
     console.error("Error fetching letter:", error);
-    throw error; // Let Next.js error boundary handle it
+    throw error;
   }
 }
 
