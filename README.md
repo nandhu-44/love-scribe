@@ -1,7 +1,6 @@
 <img width="1280" alt="readme-banner" src="public/Mingleton.jpg">
 
-# LoveScribe 🎯
-
+# [LoveScribe](https://love-scribe.nandhu.co)
 ## Basic Details
 
 ### Team Name: Zephyr
@@ -69,12 +68,15 @@ Production build:
 ## Screenshots (Add at least 3)
 
 ![Homepage](public/HomePage.png)
+
 _The homepage with the letter generation form_
 
 ![Letter Display](public/LetterDisplay.png)
+
 _Generated letter with sharing options_
 
 ![Not Found](public/NotFound.png)
+
 _404 Page if letter nor found_
 
 ## Project Demo
