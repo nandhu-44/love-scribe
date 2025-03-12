@@ -1,3 +1,6 @@
+export const runtime = 'edge';
+export const maxDuration = 60;
+
 import { NextResponse } from 'next/server';
 import { generateLoveLetter } from '@/lib/openai';
 import connectToDatabase from '@/lib/db';
@@ -22,7 +25,6 @@ export async function POST(request) {
       tone,
       additionalDetails
     });
-
 
     try {
       await connectToDatabase();
