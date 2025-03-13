@@ -21,7 +21,7 @@ export async function generateLoveLetter(params) {
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4.5-preview-2025-02-27",
+      model: "gpt-4o",
       messages: [{ role: "user", content: prompt }],
       temperature: 0.7,
       max_tokens: 1000,

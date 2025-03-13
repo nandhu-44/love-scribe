@@ -1,5 +1,3 @@
-export const maxDuration = 60;
-
 import { NextResponse } from 'next/server';
 import { generateLoveLetter } from '@/lib/openai';
 import connectToDatabase from '@/lib/db';

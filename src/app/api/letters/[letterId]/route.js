@@ -1,5 +1,3 @@
-export const maxDuration = 60;
-
 import { NextResponse } from 'next/server';
 import connectToDatabase from '@/lib/db';
 import Letter from '@/lib/models/Letter';
